@@ -12,7 +12,7 @@ public class mainCheck {
         String input = scan.nextLine();
 
 
-            Pattern p = Pattern.compile("[А-ЯA-Z][а-яa-z]*\s[А-ЯA-Z][а-яa-z]*");
+            Pattern p = Pattern.compile("[А-ЯA-Z][а-яa-z]+\s[А-ЯA-Z][а-яa-z]+");
             Matcher m = p.matcher(input);
             boolean b = m.matches();
             System.out.println(b);
