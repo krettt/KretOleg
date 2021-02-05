@@ -1,4 +1,4 @@
-package lesson3app.pageOfApp;
+package main.java.lesson3hotel.pageOfApp;
 
 import java.util.Scanner;
 
@@ -22,11 +22,11 @@ public class Payment {
     }
 
 
-    public  void getPay(int hotelCost) {
 
+    public  void doPay(int cost) {
 
         while (!b) {
-            pay = wallet - hotelCost;
+            pay = wallet - cost ;
 
             if (pay >= 0) {
                 b = true;
@@ -42,6 +42,7 @@ public class Payment {
         System.out.println("You have now :"+ wallet +" in your deposit.");
     }
 
-
-
+    public int getWallet() {
+        return wallet;
+    }
 }
