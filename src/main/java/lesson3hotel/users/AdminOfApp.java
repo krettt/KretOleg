@@ -51,8 +51,6 @@ public class AdminOfApp extends User {
 
         DataSource.setHotels(this, hotels);
 
-        for (User manager: managers) {
-            manager.doWork();
-        }
+        managers.forEach(User::doWork);
     }
 }

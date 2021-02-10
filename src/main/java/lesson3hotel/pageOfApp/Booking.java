@@ -5,10 +5,7 @@ import main.java.lesson3hotel.hotel.Hotel;
 import main.java.lesson3hotel.hotel.room.Room;
 import main.java.lesson3hotel.hotel.room.TypeOfRoom;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Locale;
-import java.util.Scanner;
+import java.util.*;
 
 public class Booking {
 
@@ -20,6 +17,7 @@ public class Booking {
 
 
     public void setCountOfPeople() {
+        System.out.println("---------------------------");
         System.out.println("Please choice count of people !(Select from 1 to 4): ");
         while (b) {
             Scanner scanner = new Scanner(System.in);
@@ -40,7 +38,8 @@ public class Booking {
     }
 
     public void setDate() {
-        System.out.println("Please choice months when you want booked hotel.");
+        System.out.println("---------------------------");
+        System.out.println("Please choice months when you want booked hotel "+Arrays.toString(Months.values())+" :");
         while (true) {
             Scanner scan = new Scanner(System.in);
             String months = scan.nextLine().toUpperCase(Locale.ROOT);
@@ -55,34 +54,61 @@ public class Booking {
         System.out.println("Thanks, successfully saved");
     }
 
-    public Hotel choseHotel() {
-        chosenHotel = null;
-        System.out.println("Please choice hotel from hotel's list:");
-        for (Hotel hotel : DataSource.getHotels()) {
-            System.out.println(hotel.getName());
+    public void sortedRoom(){
+        System.out.println("---------------------------");
+        System.out.println("All list of rooms in "+ chosenHotel+" :");
+        chosenHotel.getRooms().forEach(x-> System.out.println("\tCost of room: "+ x.getCost()+ "\tSize of room: "+ x.getSize()+
+                "\tPerson capacity: "+x.getCountOfPeople()+"\tType of room: "+x.getType()));
+
+        System.out.println("---------------------------");
+        System.out.println("You can sorted room's by some criterion:\n 1)type\n 2)cost\n 3)size\n 4)count of people ");
+
+        SortedType sortedType;
+        while (true) {
+            Scanner scan = new Scanner(System.in);
+            String sortedInput = scan.nextLine().toUpperCase(Locale.ROOT);
+            try {
+                sortedType = SortedType.valueOf(sortedInput);
+                break;
+            } catch (Exception e) {
+                System.out.println("Invalid type");
+            }
         }
+        Comparator<Room> comparator;
+        switch (sortedType) {
+            case TYPE -> comparator = Comparator.comparing(Room::getType);
+            case COST -> comparator = Comparator.comparing(Room::getCost);
+            case SIZE -> comparator = Comparator.comparing(Room::getSize);
+            case COUNT -> comparator = Comparator.comparing(Room::getCountOfPeople);
+            default -> comparator = Comparator.comparing(Room::getType);
+        }
+        chosenHotel.getRooms().stream().sorted(comparator).forEach(x-> System.out.println("\tCost of room: "+ x.getCost()+ "\tSize of room: "+
+                x.getSize()+"\tPerson capacity: "+x.getCountOfPeople()+"\tType of room: "+x.getType()));
+
+    }
+
+    public void choseHotel() {
+        chosenHotel = null;
+        System.out.println("---------------------------");
+        System.out.println("Please choice hotel from hotel's list:");
+        DataSource.getHotels().forEach(hotel ->  System.out.println(hotel.getName()));
         while (true) {
             Scanner scan = new Scanner(System.in);
             String hotelName = scan.nextLine().toUpperCase(Locale.ROOT);
-            for (Hotel hotel : DataSource.getHotels()) {
-                if (hotel.getName().equalsIgnoreCase(hotelName)) {
-                    chosenHotel = hotel;
-                    break;
-                }
-            }
+            Optional<Hotel> filteredHotel = DataSource.getHotels().stream().filter(hotel->hotel.getName().equalsIgnoreCase(hotelName))
+                    .findFirst();
 
-            if (chosenHotel == null) {
-                System.out.println("Sorry try again");
-            } else {
-                System.out.println("Your choice " + chosenHotel.getName());
+            if (filteredHotel.isPresent()) {
+                System.out.println("Your choice " + filteredHotel.get().getName());
+                chosenHotel = filteredHotel.get();
                 break;
-            }
+            } else System.out.println("Incorrect choice, type again ");
         }
         System.out.println("Thanks, successfully saved");
-        return chosenHotel;
     }
 
-    public TypeOfRoom choseTypeOfRoom() {
+    public void choseTypeOfRoom() {
+        System.out.println("---------------------------");
         System.out.println("Please choice type of  list " + Arrays.toString(TypeOfRoom.values()) + " : ");
 
         while (true) {
@@ -97,13 +123,13 @@ public class Booking {
             }
         }
         System.out.println("Thanks, successfully saved");
-        return typeOfRoom;
     }
 
 
-    public Room choseRoom() {
+    public void choseRoom() {
         chosenRoom = null;
         List<Room> filteredRoom = chosenHotel.getRooms(number, typeOfRoom);
+        System.out.println("---------------------------");
         System.out.println("Please choice room from room's list ");
         for (int i =0; i < filteredRoom.size(); i++) {
             Room room = filteredRoom.get(i);
@@ -122,7 +148,7 @@ public class Booking {
                 System.out.println("Invalid input. Enter again");
             }
         System.out.println("Thanks, successfully saved");
-            return chosenRoom;
+            return;
         }
     }
 

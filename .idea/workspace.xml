@@ -2,25 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cde360c-3e36-4d39-8c68-e7bb9d2c43f4" name="Default Changelist" comment="Lesson3.OOP">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/hotel/room/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/hotel/room/TypeOfRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/users/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/pageOfApp/SortedType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson2checkName/mainCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2checkName/mainCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson2enum/MainDays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2enum/MainDays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson2enum/WeekDays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2enum/WeekDays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson3app/DataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/DataSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson3app/InterfaceOfApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/InterfaceOfApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson3app/hotel/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/hotel/Hotel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson3app/pageOfApp/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/pageOfApp/Booking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson3app/pageOfApp/Months.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/pageOfApp/Months.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson3app/pageOfApp/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/pageOfApp/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson3app/pageOfApp/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/pageOfApp/Registration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson3app/users/AdminOfApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/users/AdminOfApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson3app/users/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/users/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson3app/users/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/users/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson3app/users/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson3app/users/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/users/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3hotel/DataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/DataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3hotel/InterfaceOfApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/InterfaceOfApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3hotel/hotel/room/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/hotel/room/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3hotel/hotel/room/TypeOfRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/hotel/room/TypeOfRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3hotel/pageOfApp/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/pageOfApp/Booking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3hotel/pageOfApp/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/pageOfApp/Registration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3hotel/users/AdminOfApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/users/AdminOfApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3hotel/users/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/users/Manager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson2" />
+        <entry key="$PROJECT_DIR$" value="lesson3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />

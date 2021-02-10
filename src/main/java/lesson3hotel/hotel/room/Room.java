@@ -7,6 +7,7 @@ public class Room {
     private TypeOfRoom type;
     private int countOfPeople;
     private int cost;
+    private int size;
 
     public void setType(User user,TypeOfRoom typeOfRoom) {
         if(user.getRole()== Role.MANAGER)
@@ -25,6 +26,11 @@ public class Room {
         this.cost = cost;
     }
 
+    public void setSize(User user,int size) {
+        if(user.getRole()== Role.MANAGER)
+        this.size = size;
+    }
+
     public int getCost() {
         return cost;
     }
@@ -38,4 +44,7 @@ public class Room {
     }
 
 
+    public int getSize() {
+        return size;
+    }
 }
