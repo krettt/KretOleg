@@ -26,7 +26,7 @@ public class AdminOfApp extends User {
 
     @Override
     public void doWork() {
-        ArrayList<Hotel> hotels = new ArrayList<>();
+        List<Hotel> hotels = new ArrayList<>();
         Hotel hotel1 = new Hotel("Hilton Lviv");
         hotel1.setManager(managers.get(0));
         hotels.add(hotel1);
