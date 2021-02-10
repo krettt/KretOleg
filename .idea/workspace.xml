@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cde360c-3e36-4d39-8c68-e7bb9d2c43f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson3app/DataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson3app/users/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson3app/users/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson6exeption/FirstTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson6exeption/SecondTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson6exeption/thirdtask/App1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson6exeption/thirdtask/App2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson6exeption/thirdtask/App3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson6exeption/thirdtask/App4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,13 +48,18 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="inlay.hints.JAVA" />
   </component>
-  <component name="RunManager" selected="Application.InterfaceOfApp">
-    <configuration name="InterfaceOfApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson3app.InterfaceOfApp" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\QA\KretOleg\src\lesson6exeption" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App4">
+    <configuration name="App1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6exeption.thirdtask.App1" />
       <module name="KretOleg" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson3app.*" />
+          <option name="PATTERN" value="lesson6exeption.thirdtask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,19 +67,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lesson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson" />
+    <configuration name="App2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6exeption.thirdtask.App2" />
       <module name="KretOleg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson6exeption.thirdtask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mainCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson2checkName.mainCheck" />
+    <configuration name="App3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6exeption.thirdtask.App3" />
       <module name="KretOleg" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson2checkName.*" />
+          <option name="PATTERN" value="lesson6exeption.thirdtask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6exeption.thirdtask.App4" />
+      <module name="KretOleg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson6exeption.thirdtask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecondTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6exeption.SecondTask" />
+      <module name="KretOleg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson6exeption.thirdtask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InterfaceOfApp" />
-        <item itemvalue="Application.mainCheck" />
-        <item itemvalue="Application.lesson" />
-        <item itemvalue="Application.mainCheck" />
-        <item itemvalue="Application.lesson" />
+        <item itemvalue="Application.App4" />
+        <item itemvalue="Application.App3" />
+        <item itemvalue="Application.App2" />
+        <item itemvalue="Application.App1" />
+        <item itemvalue="Application.SecondTask" />
       </list>
     </recent_temporary>
   </component>
@@ -110,6 +150,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -120,10 +161,5 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="Months.valueOf(months);" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
