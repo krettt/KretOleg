@@ -1,4 +1,4 @@
-package lesson2checkName;
+package main.java.lesson2checkName;
 
 import java.util.Scanner;
 import java.util.regex.Matcher;

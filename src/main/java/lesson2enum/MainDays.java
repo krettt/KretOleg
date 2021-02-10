@@ -1,4 +1,4 @@
-package lesson2enum;
+package main.java.lesson2enum;
 
 import java.util.Scanner;
 

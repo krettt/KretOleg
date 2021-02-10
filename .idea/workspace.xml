@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8cde360c-3e36-4d39-8c68-e7bb9d2c43f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson3app/DataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson3app/users/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson3app/users/Role.java" afterDir="false" />
+    <list default="true" id="8cde360c-3e36-4d39-8c68-e7bb9d2c43f4" name="Default Changelist" comment="Lesson3.OOP">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/hotel/room/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/hotel/room/TypeOfRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/users/Role.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson2checkName/mainCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2checkName/mainCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson2enum/MainDays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2enum/MainDays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson2enum/WeekDays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2enum/WeekDays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson3app/DataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/DataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson3app/InterfaceOfApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/InterfaceOfApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson3app/hotel/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/hotel/Hotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson3app/pageOfApp/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/pageOfApp/Booking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson3app/pageOfApp/Months.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/pageOfApp/Months.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson3app/pageOfApp/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/pageOfApp/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson3app/pageOfApp/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/pageOfApp/Registration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson3app/users/AdminOfApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/users/AdminOfApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson3app/users/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/users/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson3app/users/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/users/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson3app/users/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson3app/users/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/users/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +31,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -47,11 +61,11 @@
   </component>
   <component name="RunManager" selected="Application.InterfaceOfApp">
     <configuration name="InterfaceOfApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson3app.InterfaceOfApp" />
+      <option name="MAIN_CLASS_NAME" value="main.java.lesson3hotel.InterfaceOfApp" />
       <module name="KretOleg" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson3app.*" />
+          <option name="PATTERN" value="main.java.lesson3hotel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,11 +81,11 @@
       </method>
     </configuration>
     <configuration name="mainCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson2checkName.mainCheck" />
+      <option name="MAIN_CLASS_NAME" value="main.java.lesson2checkName.mainCheck" />
       <module name="KretOleg" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson2checkName.*" />
+          <option name="PATTERN" value="main.java.lesson2checkName.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,6 +124,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -122,7 +137,7 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="Months.valueOf(months);" language="JAVA" />
+        <watch expression="chosenHotel.getRooms(number,typeOfRoom);" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>

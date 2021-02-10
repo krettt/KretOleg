@@ -1,6 +1,4 @@
-package lesson3app.users;
-
-import lesson3app.hotel.Hotel;
+package main.java.lesson3hotel.users;
 
 public abstract class User {
     String name;

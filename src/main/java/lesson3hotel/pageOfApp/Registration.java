@@ -1,4 +1,4 @@
-package lesson3app.pageOfApp;
+package main.java.lesson3hotel.pageOfApp;
 
 import java.util.Scanner;
 import java.util.regex.Matcher;
