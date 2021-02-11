@@ -9,6 +9,7 @@ public class Payment {
 
 
     public void outIntroductionOfPayment() {
+        System.out.println("---------------------------");
         System.out.println("Please deposit the amount into your appwallet.\n" +
                 "You can use it to book");
     }
