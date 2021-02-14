@@ -13,11 +13,11 @@ public class InterfaceOfApp {
         AdminOfApp admin = new AdminOfApp("Ilona", "Hodakova");
         admin.doWork();
 
-        Client client = getRegister();
-        Booking booking = getBooking();
-        Payment payment = getPayment(booking);
+       Client client = getRegister();
+       Booking booking = getBooking();
+       Payment payment = getPayment(booking);
 
-        printConfirmation(client,booking,payment);
+       printConfirmation(client,booking,payment);
 
     }
 
@@ -39,9 +39,10 @@ public class InterfaceOfApp {
 
     private static Booking getBooking() {
         Booking booking = new Booking();
+        booking.choseHotel();
+        booking.sortedRoom();
         booking.setCountOfPeople();
         booking.setDate();
-        booking.choseHotel();
         booking.choseTypeOfRoom();
         booking.choseRoom();
         return booking;

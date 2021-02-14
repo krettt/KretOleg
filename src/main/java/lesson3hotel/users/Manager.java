@@ -24,24 +24,31 @@ public class Manager extends User {
 
     @Override
     public void doWork() {
-        for (Hotel hotel: DataSource.getHotels()) {
-            if (hotel.getManager() == this) {
-                ArrayList<Room> rooms = new ArrayList<>();
-                for (int j = 0; j < 4; j++) {
-                    Room room = new Room();
-                    room.setType(this, TypeOfRoom.LUXURY);
-                    room.setCountOfPeople(this, j + 1);
-                    room.setCost(this, new Random().nextInt(100)*j+1);
-                    rooms.add(room);
+        DataSource.getHotels().stream().filter(hotel -> hotel.getManager() == this).forEach(hotel -> {
+            ArrayList<Room> rooms = new ArrayList<>();
+            for (int j = 0; j < 4; j++) {
+                Room room1 = new Room();
+                room1.setType(this, TypeOfRoom.STANDARD);
+                room1.setSize(this,new Random().nextInt(10)+20);
+                room1.setCountOfPeople(this, j + 1);
+                room1.setCost(this, new Random().nextInt(30)*(j+1)+20);
+                rooms.add(room1);
 
-                    Room room1 = new Room();
-                    room1.setType(this, TypeOfRoom.STANDARD);
-                    room1.setCountOfPeople(this, j + 1);
-                    room1.setCost(this, new Random().nextInt(50)*j+1);
-                    rooms.add(room1);
-                }
-                hotel.setRoom(this, rooms);
+                Room room2 = new Room();
+                room2.setType(this, TypeOfRoom.SUITE);
+                room2.setSize(this,new Random().nextInt(40)+20);
+                room2.setCountOfPeople(this, j + 1);
+                room2.setCost(this, new Random().nextInt(55)*(j+1)+20);
+                rooms.add(room2);
+
+                Room room = new Room();
+                room.setType(this, TypeOfRoom.LUXURY);
+                room.setSize(this,new Random().nextInt(60)+20);
+                room.setCountOfPeople(this, j + 1);
+                room.setCost(this, new Random().nextInt(80)*(j+1)+20);
+                rooms.add(room);
             }
-        }
+            hotel.setRoom(this, rooms);
+        });
     }
 }
