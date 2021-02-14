@@ -12,7 +12,8 @@ public class Registration {
     boolean bool = true;
 
     public void outIntroduction() {
-        System.out.println("Hello dear Wanderer.\n " +
+        System.out.println("---------------------------");
+        System.out.println("Hello dear Wanderer.\n" +
                 "Welcome into new program which help you booking hotel of your dream.\n" +
                 "Follow the simple instructions of the program and you will get what you want.\n" +
                 "Enjoy!");

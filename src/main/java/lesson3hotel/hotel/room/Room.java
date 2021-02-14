@@ -1,7 +1,7 @@
 package main.java.lesson3hotel.hotel.room;
 
-import main.java.lesson3hotel.users.Role;
 import main.java.lesson3hotel.users.User;
+import main.java.lesson3hotel.users.Role;
 
 public class Room {
     private TypeOfRoom type;

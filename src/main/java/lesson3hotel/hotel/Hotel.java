@@ -9,8 +9,6 @@ import main.java.lesson3hotel.users.User;
 import java.util.*;
 
 public class Hotel {
-
-
     private List<Room> rooms;
     private User manager ;
     private String name;
