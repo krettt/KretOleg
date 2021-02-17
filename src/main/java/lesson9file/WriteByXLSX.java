@@ -18,7 +18,7 @@ import java.util.Arrays;
 public class WriteByXLSX {
     public static void main(String[] args) throws IOException {
 
-        CSVWriter writer = new CSVWriter(new FileWriter("src//main//resources//FileWriter1.xlsx"));
+        CSVWriter writer = new CSVWriter(new FileWriter("src//main//resources//FileWriter1.csv"));
 
         String[] record = "Oleh,Igor,Yura,Vlad,Nick,Jack,Bob,Misha,Mot,Ben".split(",");
 
