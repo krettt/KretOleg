@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8cde360c-3e36-4d39-8c68-e7bb9d2c43f4" name="Default Changelist" comment="Lesson3.OOP">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/pageOfApp/SortedType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_opencsv_opencsv_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_10_FINAL.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_10_FINAL.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_10_FINAL.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CreateFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3hotel/DataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/DataSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3hotel/InterfaceOfApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/InterfaceOfApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3hotel/hotel/room/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/hotel/room/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3hotel/hotel/room/TypeOfRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/hotel/room/TypeOfRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3hotel/pageOfApp/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/pageOfApp/Booking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3hotel/pageOfApp/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/pageOfApp/Registration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3hotel/users/AdminOfApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/users/AdminOfApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3hotel/users/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/users/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KretOleg.iml" beforeDir="false" afterPath="$PROJECT_DIR$/KretOleg.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +32,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -36,6 +46,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1nsHVu1So5h7hozkzUNmtMZXNmN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,7 +63,14 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="inlay.hints.JAVA" />
   </component>
-  <component name="RunManager" selected="Application.InterfaceOfApp">
+  <component name="RunManager" selected="Application.CreateFile">
+    <configuration name="CreateFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CreateFile" />
+      <module name="KretOleg" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InterfaceOfApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.lesson3hotel.InterfaceOfApp" />
       <module name="KretOleg" />
@@ -86,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CreateFile" />
         <item itemvalue="Application.InterfaceOfApp" />
         <item itemvalue="Application.mainCheck" />
         <item itemvalue="Application.lesson" />
         <item itemvalue="Application.mainCheck" />
-        <item itemvalue="Application.lesson" />
       </list>
     </recent_temporary>
   </component>
