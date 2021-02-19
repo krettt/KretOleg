@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8cde360c-3e36-4d39-8c68-e7bb9d2c43f4" name="Default Changelist" comment="Lesson3.OOP">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/pageOfApp/SortedType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ui/test/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3hotel/DataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/DataSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3hotel/InterfaceOfApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/InterfaceOfApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3hotel/hotel/room/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/hotel/room/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3hotel/hotel/room/TypeOfRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/hotel/room/TypeOfRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3hotel/pageOfApp/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/pageOfApp/Booking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3hotel/pageOfApp/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/pageOfApp/Registration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3hotel/users/AdminOfApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/users/AdminOfApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3hotel/users/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3hotel/users/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KretOleg.iml" beforeDir="false" afterPath="$PROJECT_DIR$/KretOleg.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -36,6 +35,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1nsHVu1So5h7hozkzUNmtMZXNmN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,9 +50,22 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="inlay.hints.JAVA" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
-  <component name="RunManager" selected="Application.InterfaceOfApp">
+  <component name="RunManager" selected="Application.FirstTest">
+    <configuration name="FirstTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ui.test.FirstTest" />
+      <module name="KretOleg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ui.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InterfaceOfApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.lesson3hotel.InterfaceOfApp" />
       <module name="KretOleg" />
@@ -86,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FirstTest" />
         <item itemvalue="Application.InterfaceOfApp" />
         <item itemvalue="Application.mainCheck" />
         <item itemvalue="Application.lesson" />
         <item itemvalue="Application.mainCheck" />
-        <item itemvalue="Application.lesson" />
       </list>
     </recent_temporary>
   </component>
@@ -124,6 +139,11 @@
           <properties class="java.lang.StackOverflowError" package="java.lang" />
           <option name="timeStamp" value="2" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ui/test/FirstTest.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
