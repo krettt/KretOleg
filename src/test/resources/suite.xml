@@ -5,6 +5,8 @@
         <classes>
             <class name="com.ui.upgradeTest.CheckSearchPageTest"/>
             <class name="com.ui.upgradeTest.CheckPriceOfProductTest"/>
+            <class name="com.ui.upgradeTest.CheckProductInCartTest"/>
+            <class name="com.ui.upgradeTest.LoginTest"/>
         </classes>
     </test>
 

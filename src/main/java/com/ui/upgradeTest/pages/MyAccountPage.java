@@ -1,2 +1,26 @@
-package com.ui.upgradeTest.pages;public class MyAccountPage {
+package com.ui.upgradeTest.pages;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class MyAccountPage {
+    private WebDriver driver;
+
+    public MyAccountPage(WebDriver driver) {
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
+    }
+
+    @FindBy(xpath = "//span[contains(text(),'Oleh Kret')]")
+    private WebElement userInfoButton;
+
+    public String getTitle() {
+        return driver.getTitle();
+    }
+
+    public WebElement getUserInfoButton() {
+        return userInfoButton;
+    }
 }
