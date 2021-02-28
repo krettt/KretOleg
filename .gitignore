@@ -13,6 +13,13 @@
 # IntellijIdea files
 /.idea
 
+#Allure
+allure-results/*
+allure-report/*
+
+#Target
+target/*
+
 # Package Files #
 *.jar
 *.war
