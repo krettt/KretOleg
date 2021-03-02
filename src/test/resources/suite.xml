@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test suite">
+    <test name="Page Object Test">
+        <classes>
+            <class name="com.ui.testWithPageFactory.CheckSearchPageTest"/>
+            <class name="com.ui.testWithPageFactory.CheckPriceOfProductTest"/>
+            <class name="com.ui.testWithPageFactory.CheckProductInCartTest"/>
+            <class name="com.ui.testWithPageFactory.LoginTest"/>
+        </classes>
+    </test>
+
+</suite>
