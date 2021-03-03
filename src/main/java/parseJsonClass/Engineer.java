@@ -14,7 +14,6 @@ public class Engineer {
         this.name = name;
         this.nationality = nationality;
     }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

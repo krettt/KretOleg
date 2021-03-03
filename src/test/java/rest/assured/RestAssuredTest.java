@@ -5,8 +5,8 @@ import org.hamcrest.Matchers;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import parseJsonClass.Engineer;
-import rest.assured.data.RestAssuredData;
 
+import java.util.Arrays;
 import java.util.List;
 
 import static io.restassured.RestAssured.given;
@@ -15,8 +15,9 @@ import static org.hamcrest.Matchers.equalTo;
 import static org.testng.AssertJUnit.assertTrue;
 
 public class RestAssuredTest {
-
     private static final String URL ="http://ergast.com/api/f1/2010/constructors.json";
+    private final static List<String> constructorId= Arrays.asList("ferrari","force_india","hrt","lotus_racing","mclaren",
+            "mercedes","red_bull","renault","sauber","toro_rosso","virgin","williams" );
 
     @BeforeClass
     public void checkURL(){
@@ -30,8 +31,8 @@ public class RestAssuredTest {
 
     @Test
     public void checkConstructorsCompany(){
-       given().get(URL).then().assertThat().body("MRData.ConstructorTable.Constructors.constructorId",
-                equalTo(RestAssuredData.constructorId));
+        given().get(URL).then().assertThat().body("MRData.ConstructorTable.Constructors.constructorId",
+                equalTo(constructorId));
     }
     @Test
     public void checkMercedes(){
