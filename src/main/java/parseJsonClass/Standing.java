@@ -12,7 +12,7 @@ public class Standing {
     @JsonProperty("Driver")
     private Driver driver;
     @JsonProperty("Constructors")
-    private List<Constructor> constructors;
+    private List<Engineer> engineers;
 
     public String getPosition() {
         return position;
@@ -54,12 +54,12 @@ public class Standing {
         this.driver = driver;
     }
 
-    public List<Constructor> getConstructors() {
-        return constructors;
+    public List<Engineer> getConstructors() {
+        return engineers;
     }
 
-    public void setConstructors(List<Constructor> constructors) {
-        this.constructors = constructors;
+    public void setConstructors(List<Engineer> engineers) {
+        this.engineers = engineers;
     }
 
     @Override
@@ -70,7 +70,7 @@ public class Standing {
                 " points " + points + "\'" +
                 " wins " + wins + "\'" +
                 "\ndriver " + driver + "\'" +
-                "\nconstructors" + constructors + "\'"
+                "\nconstructors" + engineers + "\'"
                 + " }";
     }
 }

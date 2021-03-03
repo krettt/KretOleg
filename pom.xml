@@ -37,6 +37,18 @@
             <version>2.11.3</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>json-schema-validator</artifactId>
+            <version>4.3.3</version>
+        </dependency>
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>4.3.3</version>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -60,8 +72,6 @@
                     <reportVersion>2.13.8</reportVersion>
                 </configuration>
             </plugin>
-
-
         </plugins>
     </build>
 

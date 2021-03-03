@@ -12,10 +12,12 @@
 
 # IntellijIdea files
 /.idea
+.idea/
 
 #Allure
 allure-results/*
 allure-report/*
+.allure
 
 #Target
 target/*

@@ -73,6 +73,7 @@ public class Driver {
     public void setNationality(String nationality) {
         this.nationality = nationality;
     }
+
     @Override
     public String toString() {
         return "{" +
@@ -84,6 +85,6 @@ public class Driver {
                 " familyName " + familyName + "\'" +
                 " dateOfBirth " + dateOfBirth + "\'" +
                 " nationality " + nationality + "\'"
-                +"}";
+                + "}";
     }
 }
