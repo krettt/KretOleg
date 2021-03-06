@@ -20,6 +20,9 @@ allure-report/*
 #Target
 target/*
 
+#Selenide
+build/reports/tests
+
 # Package Files #
 *.jar
 *.war
